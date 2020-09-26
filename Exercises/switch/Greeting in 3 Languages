@@ -1,0 +1,24 @@
+var greeting = 'Hello World';
+var language = 'Chinese';
+
+switch (language) {
+  case 'English':
+  greeting = 'Hello World';
+  break;
+
+
+  case 'Bangla':
+  greeting = 'ওহে বিশ্ব';
+  break;
+
+ 
+  case 'Arabic':
+  greeting = 'مرحبا بالعالم';
+  break;
+
+  default:
+  greeting = 'Undefined Language';
+}
+
+
+ gs.info('In ' + language + ' say '+ greeting);
