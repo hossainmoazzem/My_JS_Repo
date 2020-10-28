@@ -1,12 +1,12 @@
 function convertDoller(amount){
 
-var todayAustralianDollerRate=60.02
-var todayAmericanDollerRate=84.77
+var todayAustralianDollerRate=60.02;
+var todayAmericanDollerRate=84.77;
 
 var audoller=amount*todayAustralianDollerRate;
 gs.info(amount + ' Australian $  Converts to BDT '+ audoller + ' today.')
 
-var usdoller=amount*todayAmericanDollerRate
+var usdoller=amount*todayAmericanDollerRate;
 gs.info(amount +' American $ Converts to BDT ' + usdoller + ' today.')
 
 }
